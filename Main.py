@@ -8,5 +8,18 @@ if operasi == "+":
   hasil = x + y
   print("operasi yang anda pilih adalah penjumlahan")
   print(x, "+", y, "=", hasil)
+elif operasi == "-":
+  hasil = x - y
+  print("operasi yang anda pilih adalah pengurangan")
+  print(x, "-", y, "=", hasil)
+elif operasi == "*":
+  hasil = x * y
+  print("operasi yang anda pilih adalah perkalian")
+  print(x, "*", y, "=", hasil)
+elif operasi == "/":
+  hasil = x / y
+  print("operasi yang anda pilih adalah pembagian")
+  print(x, "/", y, "=", hasil)
 else:
-  print("operasi yang anda masukkan salah!!!")
+  print("jenis operasi yang anda masukkan salah")
+  print("syntax error 404!!!")
