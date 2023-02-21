@@ -1,4 +1,5 @@
-print("\nSelamat datang di program kalkulator sederhana")
+print("\n==============================================")
+print("Selamat datang di program kalkulator sederhana")
 print("==============================================\n")
 
 j = 0
